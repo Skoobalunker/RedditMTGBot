@@ -25,7 +25,7 @@ with open('magictcg_done.txt', 'r') as f:
     for i in f:
         already_done.append(i.replace("\n", ""))
 
-# Function that does all the magic
+# Function that does all the magic (no pun intended)
 def bot_comments():
     ids = []
     sub_comments = subreddit.get_comments()
